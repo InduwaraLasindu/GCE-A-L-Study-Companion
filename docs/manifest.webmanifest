@@ -1,0 +1,18 @@
+{
+  "id": "./",
+  "name": "Orbit — GCE A/L Study Companion",
+  "short_name": "Orbit",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5efde",
+  "theme_color": "#f5efde",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
