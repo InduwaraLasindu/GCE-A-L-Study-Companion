@@ -1,0 +1,14 @@
+{
+  "name": "gce-a-l-study-companion",
+  "private": true,
+  "version": "2.6.0-dev",
+  "description": "Local-first source management and validation for Orbit.",
+  "type": "module",
+  "engines": {"node": ">=20"},
+  "scripts": {
+    "import:legacy": "node scripts/import-legacy.mjs",
+    "build": "node scripts/build.mjs",
+    "audit": "node scripts/audit.mjs",
+    "test": "node --test"
+  }
+}

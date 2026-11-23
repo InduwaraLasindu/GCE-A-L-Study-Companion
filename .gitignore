@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.tmp/
+.DS_Store
+*.log
+# Original exam images and notes are embedded in these generated JSON banks.
+# Review reuse and licensing before making them publicly available.
+src/data/orbit-data.json
+src/data/orbit-accounting-data.json
+src/data/orbit-ict-data.json
+src/data/import-manifest.json
+# Keep downloaded original monolithic builds out of the repository.
+Orbit_*_Offline.html
+Orbit_*_Question_Focused.html
