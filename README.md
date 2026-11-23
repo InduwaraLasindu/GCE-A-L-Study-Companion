@@ -58,4 +58,15 @@ Generated source banks and dist/ are ignored for now, pending a content-rights r
 - Keep the interface usable on small phones, tablets, and desktops.
 - Make changes testable and document what was **actually** verified.
 
-See docs/ARCHITECTURE.md for the next steps. This is not yet a GitHub Pages deployment.
+See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the next development steps.
+
+
+## GitHub Pages — deployed launcher
+
+**Site:** https://induwaralasindu.github.io/GCE-A-L-Study-Companion/
+
+GitHub Pages deployment succeeded on 2026-11-23 using [Deploy Orbit Pages](.github/workflows/deploy-pages.yml). The public page is a **local-first launcher**, not a public distribution of third-party exam scans. On each device, select your original, verified `Orbit_2_6_Profiles_Studio_Offline.html` once. The browser checks the pinned SHA-256 and runs the entire app without uploading that file. Browser storage may preserve it between visits.
+
+See [GitHub Pages setup, privacy, and limitations](docs/PAGES.md).
+
+**Privacy:** Learner progress and profiles remain browser-local; they do not automatically sync between devices. Export progress from the previous offline app and import it on the hosted origin to migrate data.
